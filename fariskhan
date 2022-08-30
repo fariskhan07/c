@@ -1,0 +1,17 @@
+#include <stdio.h>
+void main() 
+{
+   int i;
+   i=4;
+   printf("value of i=%d\n",i);
+   ++i;
+   printf("value of i =%d\n",i);
+   printf("---------\n");
+   int x;
+ 
+   x=i++;
+   printf("value of i = %d\n",i);
+   printf("value of x= %d\n",x);
+   
+   
+}

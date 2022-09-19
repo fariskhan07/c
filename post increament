@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+ int main() {
+    int a=6;
+    int x;
+    printf("valu of a %d \n",a);
+    x=a++;
+    printf("valu of x %d \n",x);
+} 

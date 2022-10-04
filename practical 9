@@ -1,0 +1,29 @@
+/* practical no 9.1
+04/10/22
+*/
+
+#include <stdio.h>
+
+   void main() 
+{      
+  int n;
+  printf("enter number");
+  scanf("%d",&n);
+  int i=1;
+  for(i;i<=n;i++)
+  {
+      printf("hello %d",i);
+      printf("\n");
+      
+      
+      
+      
+  }
+    
+    
+    
+    
+    
+    
+    
+}

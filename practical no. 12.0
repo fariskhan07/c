@@ -1,0 +1,19 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+void add(){
+ int a;
+ int b;
+ printf("enter valu of a");
+ printf("\n");
+ scanf("%d",&a);
+ printf("enter valu of b");
+ printf("\n");
+ scanf("%d",&b);
+ int sum=a+b;
+ printf("%d",sum);
+ }
+ void main(){
+  add();
+
+}

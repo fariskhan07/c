@@ -1,0 +1,19 @@
+//14.2 swap two number by using functiom (call by reference)
+#include <stdio.h>
+ void main() {
+    int a=4;
+    int b=7;
+    printf("before swap valu of a=%d and b=%d\n",a,b);
+    swap(&a,&b);
+    printf("after swap value of a=%d and b=%d",a,b);
+}
+void swap(int*ptr1,int*ptr2)
+{
+    int temp;
+    temp=*ptr1;
+    *ptr1=*ptr2;
+    *ptr2=temp;
+
+    
+ 
+}
